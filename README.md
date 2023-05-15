@@ -40,14 +40,6 @@ If you need install virtualenv module:
 ```
 sudo apt install python3-virtualenv
 ```
-4. Install Libraries
-```
-python3 -m pip install -r requirements.txt
-```
-or 
-```
-python -m pip install -r requirements.txt
-```
 
 ### Build Docker Container Environment 
 
@@ -84,6 +76,11 @@ docker ps
 ```
 
 ### Using RabbitMQ Message Queue
+
+If you will using RabbitMQ client you should install python pika module:
+```
+python -m pip install pika --upgrade
+```
 
 1. Send Message
 
