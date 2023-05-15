@@ -36,7 +36,10 @@ or
 ```
 source _venv/local/bin/activate
 ```
-
+If you need install virtualenv module:
+```
+sudo apt install python3-virtualenv
+```
 4. Install Libraries
 ```
 python3 -m pip install -r requirements.txt
