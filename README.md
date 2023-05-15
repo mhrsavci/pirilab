@@ -23,6 +23,10 @@ or
 python -m pip install --upgrade pip wheel setuptools
 python -m virtualenv _venv
 ```
+If you need install pip module :
+```
+sudo apt install python3-pip
+```
 
 3. Activate Environment
 ```
